@@ -4,7 +4,7 @@ MAINTAINER ASCDC <asdc.sinica@gmail.com>
 RUN apt-get update && \
 	DEBIAN_FRONTEND=noninteractive && \
 	apt-get -y dist-upgrad && \
-	apt-get -y install exiftool
+	apt-get install exiftool -y
 
 
 ENV AUTHORIZED_KEYS **None**
